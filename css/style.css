@@ -1,3 +1,10 @@
-h1 {
-    color:aliceblue
+.sorvete {
+    text-align: center;
+    color: rgb(233, 72, 9);
+}
+
+.sub{
+    text-align: center;
+    color: rgb(20, 101, 252);
+    font-weight: bold;
 }
