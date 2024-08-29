@@ -13,6 +13,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
         }
+
         h1 {
             text-align: center;
             color: #ff9999;
@@ -23,7 +24,7 @@
         .contact-info p {
             margin: 5px 0;
             font-size: 18px;
-        }
+         }
         .contact-info strong {
             color: #ff9999;
         }
@@ -54,4 +55,3 @@
         .contact-form button:hover {
             background-color: #e5533d;
         }
-    
