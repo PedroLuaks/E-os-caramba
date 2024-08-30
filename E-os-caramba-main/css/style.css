@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-to-home {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffc0cb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-contato {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffc0cb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-cardapio {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffc0cb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header {
+    background-color: #ff6f61;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #ffe6e1;
+}
+
+main {
+    text-align: center;
+    padding: 50px 20px;
+    flex-grow: 1;
+}
+
+.sorvete {
+    font-size: 36px;
+    color: #ff6f61;
+    margin-bottom: 10px;
+}
+
+.sub {
+    font-size: 24px;
+    color: #d41b1b;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}

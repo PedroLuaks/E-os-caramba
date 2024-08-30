@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-to-cardapio {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffc0cb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-home {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffc0cb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-contato {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #ffc0cb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+header {
+    background-color: #ff6f61;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffe6e1;
+}
+
+.sorvete {
+    text-align: center;
+    font-size: 36px;
+    color: #ff9999;
+    margin-top: 0;
+}
+
+.menu {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item img {
+    max-width: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.description {
+    text-align: left;
+}
+
+.description h3 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.description p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.price {
+    font-size: 18px;
+    color: #ff6666;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #ff6f61;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
